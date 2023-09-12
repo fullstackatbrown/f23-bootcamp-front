@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Comment = ({ content, postedAt }: Props) => {
-  // TODO: Implemnt a Comment!
+  // TODO: Implement a Comment!
   return;
 };
 
