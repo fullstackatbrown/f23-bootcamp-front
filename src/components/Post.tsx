@@ -7,7 +7,7 @@ interface Props {
   postedAt: Date;
 }
 
-const Post: FC<Props> = ({ title, body, postedAt }) => {
+const Post = ({ title, body, postedAt }: Props) => {
   // TODO: Implement a Post!
   return;
 };

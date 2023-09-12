@@ -5,7 +5,7 @@ interface Props {
   postedAt: Date;
 }
 
-const Comment = ({ content, postedAt }) => {
+const Comment = ({ content, postedAt }: Props) => {
   // TODO: Implemnt a Comment!
   return;
 };

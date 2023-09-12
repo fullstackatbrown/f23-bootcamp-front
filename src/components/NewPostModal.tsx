@@ -16,7 +16,7 @@ interface Props {
   onClose: () => void;
 }
 
-const NewPostModal = ({ isOpen, onClose }) => {
+const NewPostModal = ({ isOpen, onClose }: Props) => {
   // TODO: Fill out this handleSubmit function!
   function handleSubmit(e: any) {}
 
