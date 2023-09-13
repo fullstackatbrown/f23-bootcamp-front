@@ -6,8 +6,17 @@ interface Props {
 }
 
 const Comment = ({ content, postedAt }: Props) => {
-  // TODO: Implement a component representing a comment
-  return;
+  return (
+    <Box width="100%">
+      <Box my={3}>
+        <Text fontSize="sm">{content}</Text>
+        <Text fontSize="xs" fontWeight={600}>
+          {postedAt.toLocaleString("en-us")}
+        </Text>
+      </Box>
+      <Divider />
+    </Box>
+  );
 };
 
 export default Comment;
