@@ -17,10 +17,11 @@ interface Props {
 }
 
 const NewPostModal = ({ isOpen, onClose }: Props) => {
-  // TODO: Fill out this handleSubmit function!
+  // TODO: Fill out this handleSubmit function, which defines what happens
+  // when the user submits their post
   function handleSubmit(e: any) {}
 
-  // TODO: Implemnt a NewPostModal!
+  // TODO: Implement a modal for creating a new post
   return;
 };
 

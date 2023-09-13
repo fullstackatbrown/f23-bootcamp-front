@@ -8,7 +8,7 @@ interface Props {
 }
 
 const Post = ({ title, body, postedAt }: Props) => {
-  // TODO: Implement a Post!
+  // TODO: Implement a component representing an already existing post
   return;
 };
 
